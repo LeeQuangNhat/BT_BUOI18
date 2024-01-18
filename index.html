@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Title</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <!-- FontAwesome 6.2.0 CSS -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+            integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        
+    </head>
+
+    <body style="background-image: url(https://img.freepik.com/free-vector/blue-curve-background_53876-113112.jpg?size=626&ext=jpg); background-repeat: no-repeat; background-size: cover;">
+        <div class="container my-5">
+            <div class="d-flex align-items-center  mb-3">
+                <div class=" w-100 me-3">
+                    <input
+                        type="text"
+                        class="form-control"
+                        name=""
+                        id="txt-soN"
+                        aria-describedby="helpId"
+                        placeholder="Nhập số N"
+                    />
+                </div>
+                <button class="btn btn-success rounded-5 fw-bold fs-6 shadow w-25" >Thêm số N</button>
+            </div>
+            <div class="border mt-3 rounded-3 text-bg-light shadow-lg mb-5">
+                <h2 class="fs-4 p-2 px-3 mb-0 ">
+                    <i class="fa-solid fa-hand-point-right text-warning"></i> <span id="btnThemSoN" class="ps-1"></span>
+                </h2>
+            </div>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item B1">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      <h3 style="font-size: 18px;" class="mb-0">Bài 1: Tính tổng số dương</h3>
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <button class="btn btn-primary btnKetQuaBai1 rounded-5 fw-bold fs-6 shadow">Tính tổng số dương</button>
+                        <div class="border mt-3 rounded-3 text-bg-light shadow-lg">
+                            <h2 class="fs-4 p-2 px-3 mb-0 ">
+                                <i class="fa-solid fa-hand-point-right text-warning"></i> <span id="ketQuaBai1"
+                                    class="ps-1"> </span>
+                            </h2>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item B2">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        <h3 style="font-size: 18px;" class="mb-0">Bài 2: Đếm số dương</h3>
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <button class="btn btn-primary btnKetQuaBai2 rounded-5 fw-bold fs-6 shadow">Đếm số dương</button>
+                        <div class="border mt-3 rounded-3 text-bg-light shadow-lg">
+                            <h2 class="fs-4 p-2 px-3 mb-0 ">
+                                <i class="fa-solid fa-hand-point-right text-warning"></i> <span id="ketQuaBai2"
+                                    class="ps-1"> </span>
+                            </h2>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item B3">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        <h3 style="font-size: 18px;" class="mb-0">Bài 3: Tìm số nhỏ nhất</h3>
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <button class="btn btn-primary btnKetQuaBai3 rounded-5 fw-bold fs-6 shadow">Tìm số nhỏ nhất</button>
+                        <div class="border mt-3 rounded-3 text-bg-light shadow-lg">
+                            <h2 class="fs-4 p-2 px-3 mb-0 ">
+                                <i class="fa-solid fa-hand-point-right text-warning"></i> <span id="ketQuaBai3"
+                                    class="ps-1"> </span>
+                            </h2>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item B4">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                        <h3 style="font-size: 18px;" class="mb-0">Bài 4: Tìm số dương nhỏ nhất</h3>
+                      </button>
+                    </h2>
+                    <div id="collapsefour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <button class="btn btn-primary btnKetQuaBai4 rounded-5 fw-bold fs-6 shadow">Tìm số dương nhỏ nhất</button>
+                        <div class="border mt-3 rounded-3 text-bg-light shadow-lg">
+                            <h2 class="fs-4 p-2 px-3 mb-0 ">
+                                <i class="fa-solid fa-hand-point-right text-warning"></i> <span id="ketQuaBai4"
+                                    class="ps-1"> </span>
+                            </h2>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="accordion-item B5">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                        <h3 style="font-size: 18px;" class="mb-0">Bài 5: Tìm số chẵn cuối cùng</h3>
+                      </button>
+                    </h2>
+                    <div id="collapsefive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <button class="btn btn-primary btnKetQuaBai5 rounded-5 fw-bold fs-6 shadow">Tìm số chẵn cuối cùng</button>
+                        <div class="border mt-3 rounded-3 text-bg-light shadow-lg">
+                            <h2 class="fs-4 p-2 px-3 mb-0 ">
+                                <i class="fa-solid fa-hand-point-right text-warning"></i> <span id="ketQuaBai5"
+                                    class="ps-1"> </span>
+                            </h2>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="accordion-item B6">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+                        <h3 style="font-size: 18px;" class="mb-0">Bài 6: Đổi chỗ 2 vị trí</h3>
+                      </button>
+                    </h2>
+                    <div id="collapsesix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <div class="d-flex align-items-center">
+                            <div class="mb-3 w-50 pe-2">
+                                <input type="text" name="" id="txt-viTriSo1" class="form-control"
+                                    placeholder="Nhập vị trí số 1" aria-describedby="helpId" />
+                            </div>
+                            <div class="mb-3 w-50 ps-2">
+                                <input type="text" name="" id="txt-viTriSo2" class="form-control"
+                                    placeholder="Nhập vị trí số 2" aria-describedby="helpId" />
+                            </div>
+                        </div>
+                        <button class="btn btn-primary btnKetQuaBai6 rounded-5 fw-bold fs-6 shadow">Đổi chỗ</button>
+                        <div class="border mt-3 rounded-3 text-bg-light shadow-lg">
+                            <h2 class="fs-4 p-2 px-3 mb-0 ">
+                                <i class="fa-solid fa-hand-point-right text-warning"></i> <span id="ketQuaBai6"
+                                    class="ps-1"> </span>
+                            </h2>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="accordion-item B7">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseseven" aria-expanded="false" aria-controls="collapseseven">
+                        <h3 style="font-size: 18px;" class="mb-0">Bài 7: Sắp xếp tăng dần</h3>
+                      </button>
+                    </h2>
+                    <div id="collapseseven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <button class="btn btn-primary btnKetQuaBai7 rounded-5 fw-bold fs-6 shadow">Sắp xếp</button>
+                        <div class="border mt-3 rounded-3 text-bg-light shadow-lg">
+                            <h2 class="fs-4 p-2 px-3 mb-0 ">
+                                <i class="fa-solid fa-hand-point-right text-warning"></i> <span id="ketQuaBai7"
+                                    class="ps-1"> </span>
+                            </h2>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="accordion-item B8">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseeight" aria-expanded="false" aria-controls="collapseeight">
+                        <h3 style="font-size: 18px;" class="mb-0">Bài 8: Tìm số nguyên tố</h3>
+                      </button>
+                    </h2>
+                    <div id="collapseeight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <button class="btn btn-primary btnKetQuaBai8 rounded-5 fw-bold fs-6 shadow">Tìm số nguyên tố</button>
+                        <div class="border mt-3 rounded-3 text-bg-light shadow-lg">
+                            <h2 class="fs-4 p-2 px-3 mb-0 ">
+                                <i class="fa-solid fa-hand-point-right text-warning"></i> <span id="ketQuaBai8"
+                                    class="ps-1"> </span>
+                            </h2>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="accordion-item B9">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsenine" aria-expanded="false" aria-controls="collapsenine">
+                        <h3 style="font-size: 18px;" class="mb-0">Bài 9: Đếm số nguyên </h3>
+                      </button>
+                    </h2>
+                    <div id="collapsenine" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <div class="d-flex align-items-center mt-3">
+                          <div class=" w-50 ">
+                              <input type="text" name="" id="txt-themSoNMoi" class="form-control"
+                                  placeholder="Nhập số" aria-describedby="helpId" />
+                          </div>
+                          <button class="btn btn-primary btnThemSoBai9 rounded-5 fw-bold fs-6 shadow ms-3 px-5">Thêm số</button>
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <div class="w-100 me-3">
+                            <h6 class="my-3">Số mới</h6>
+                            <div class="border rounded-3 text-bg-light shadow-lg">
+                              <h2 class="fs-4 p-2 px-3 mb-0 ">
+                                  <i class="fa-solid fa-angles-right text-warning"></i> <span id="SoMoiBai9"
+                                      class="ps-1"> </span>
+                              </h2>
+                            </div>
+                          </div>
+                          <div class="w-100 ms-3">
+                            <h6 class="my-3">Mảng mới
+                              <span class="fw-normal fs-6">( sau khi thêm số )</span>
+                            </h6>
+                            <div class="border rounded-3 text-bg-light shadow-lg">
+                              <h2 class="fs-4 p-2 px-3 mb-0 ">
+                                  <i class="fa-solid fa-angles-right text-warning"></i> <span id="MangMoiBai9"
+                                      class="ps-1"> </span>
+                              </h2>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="btn btn-primary btnKetQuaBai9 rounded-5 fw-bold fs-6 shadow mt-3">Đếm số nguyên</button>
+                        <div class="border mt-3 rounded-3 text-bg-light shadow-lg">
+                          <h2 class="fs-4 p-2 px-3 mb-0 ">
+                              <i class="fa-solid fa-hand-point-right text-warning"></i> <span id="ketQuaBai9"
+                                  class="ps-1"> </span>
+                          </h2>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="accordion-item B10">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseten" aria-expanded="false" aria-controls="collapseten">
+                        <h3 style="font-size: 18px;" class="mb-0">Bài 10: So sánh số lượng số âm và số dương</h3>
+                      </button>
+                    </h2>
+                    <div id="collapseten" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                      <div class="accordion-body">
+                        <button class="btn btn-primary btnKetQuaBai10 rounded-5 fw-bold fs-6 shadow">So sánh</button>
+                        <div class="border mt-3 rounded-3 text-bg-light shadow-lg">
+                            <h2 class="fs-4 p-2 px-3 mb-0 ">
+                                <i class="fa-solid fa-hand-point-right text-warning"></i> <span id="ketQuaBai10"
+                                    class="ps-1"> </span>
+                            </h2>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </div>
+        </div>
+        
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+        <script src="./index.js"></script>
+    </body>
+</html>
